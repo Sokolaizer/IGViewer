@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		84FF0E1E2223F935001D0452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0E1D2223F935001D0452 /* AppDelegate.swift */; };
-		84FF0E202223F935001D0452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0E1F2223F935001D0452 /* ViewController.swift */; };
 		84FF0E232223F935001D0452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FF0E212223F935001D0452 /* Main.storyboard */; };
 		84FF0E252223F945001D0452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FF0E242223F945001D0452 /* Assets.xcassets */; };
 		84FF0E282223F945001D0452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FF0E262223F945001D0452 /* LaunchScreen.storyboard */; };
+		84FF0E30222404D8001D0452 /* TrendsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0E2F222404D8001D0452 /* TrendsCollectionViewController.swift */; };
+		84FF0E322224052C001D0452 /* TrendsPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0E312224052C001D0452 /* TrendsPhotoCollectionViewCell.swift */; };
+		84FF0E342224379D001D0452 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0E332224379D001D0452 /* FeedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84FF0E1A2223F935001D0452 /* IGViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FF0E1D2223F935001D0452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84FF0E1F2223F935001D0452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84FF0E222223F935001D0452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84FF0E242223F945001D0452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FF0E272223F945001D0452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FF0E292223F945001D0452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FF0E2F222404D8001D0452 /* TrendsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsCollectionViewController.swift; sourceTree = "<group>"; };
+		84FF0E312224052C001D0452 /* TrendsPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		84FF0E332224379D001D0452 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				84FF0E1D2223F935001D0452 /* AppDelegate.swift */,
-				84FF0E1F2223F935001D0452 /* ViewController.swift */,
 				84FF0E212223F935001D0452 /* Main.storyboard */,
+				84FF0E332224379D001D0452 /* FeedTableViewController.swift */,
 				84FF0E242223F945001D0452 /* Assets.xcassets */,
 				84FF0E262223F945001D0452 /* LaunchScreen.storyboard */,
 				84FF0E292223F945001D0452 /* Info.plist */,
+				84FF0E2F222404D8001D0452 /* TrendsCollectionViewController.swift */,
+				84FF0E312224052C001D0452 /* TrendsPhotoCollectionViewCell.swift */,
 			);
 			path = IGViewer;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FF0E202223F935001D0452 /* ViewController.swift in Sources */,
 				84FF0E1E2223F935001D0452 /* AppDelegate.swift in Sources */,
+				84FF0E30222404D8001D0452 /* TrendsCollectionViewController.swift in Sources */,
+				84FF0E322224052C001D0452 /* TrendsPhotoCollectionViewCell.swift in Sources */,
+				84FF0E342224379D001D0452 /* FeedTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
