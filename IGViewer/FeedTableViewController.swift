@@ -9,6 +9,14 @@
 import UIKit
 
 class FeedTableViewController: UITableViewController {
+    
+    @IBOutlet weak var userImage: UIImageView!
+    @IBOutlet weak var userPosts: UILabel!
+    @IBOutlet weak var userFollowers: UILabel!
+    @IBOutlet weak var userFollowing: UILabel!
+    @IBOutlet weak var profileView: UIView!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

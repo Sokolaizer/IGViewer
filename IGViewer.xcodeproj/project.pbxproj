@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3060D1CC22248AB000BF2068 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060D1CA22248AB000BF2068 /* HeaderTableViewCell.swift */; };
+		3060D1CD22248AB000BF2068 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3060D1CB22248AB000BF2068 /* HeaderTableViewCell.xib */; };
+		3060D1CF222490DD00BF2068 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060D1CE222490DD00BF2068 /* PhotoTableViewCell.swift */; };
+		3060D1D12224912100BF2068 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060D1D02224912100BF2068 /* CommentTableViewCell.swift */; };
 		84FF0E1E2223F935001D0452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0E1D2223F935001D0452 /* AppDelegate.swift */; };
 		84FF0E232223F935001D0452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FF0E212223F935001D0452 /* Main.storyboard */; };
 		84FF0E252223F945001D0452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FF0E242223F945001D0452 /* Assets.xcassets */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3060D1CA22248AB000BF2068 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		3060D1CB22248AB000BF2068 /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
+		3060D1CE222490DD00BF2068 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		3060D1D02224912100BF2068 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 		84FF0E1A2223F935001D0452 /* IGViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FF0E1D2223F935001D0452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FF0E222223F935001D0452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,8 +66,12 @@
 		84FF0E1C2223F935001D0452 /* IGViewer */ = {
 			isa = PBXGroup;
 			children = (
+				3060D1CA22248AB000BF2068 /* HeaderTableViewCell.swift */,
+				3060D1CB22248AB000BF2068 /* HeaderTableViewCell.xib */,
 				84FF0E1D2223F935001D0452 /* AppDelegate.swift */,
 				84FF0E212223F935001D0452 /* Main.storyboard */,
+				3060D1D02224912100BF2068 /* CommentTableViewCell.swift */,
+				3060D1CE222490DD00BF2068 /* PhotoTableViewCell.swift */,
 				84FF0E332224379D001D0452 /* FeedTableViewController.swift */,
 				84FF0E242223F945001D0452 /* Assets.xcassets */,
 				84FF0E262223F945001D0452 /* LaunchScreen.storyboard */,
@@ -128,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3060D1CD22248AB000BF2068 /* HeaderTableViewCell.xib in Resources */,
 				84FF0E282223F945001D0452 /* LaunchScreen.storyboard in Resources */,
 				84FF0E252223F945001D0452 /* Assets.xcassets in Resources */,
 				84FF0E232223F935001D0452 /* Main.storyboard in Resources */,
@@ -142,7 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FF0E1E2223F935001D0452 /* AppDelegate.swift in Sources */,
+				3060D1CC22248AB000BF2068 /* HeaderTableViewCell.swift in Sources */,
+				3060D1CF222490DD00BF2068 /* PhotoTableViewCell.swift in Sources */,
 				84FF0E30222404D8001D0452 /* TrendsCollectionViewController.swift in Sources */,
+				3060D1D12224912100BF2068 /* CommentTableViewCell.swift in Sources */,
 				84FF0E322224052C001D0452 /* TrendsPhotoCollectionViewCell.swift in Sources */,
 				84FF0E342224379D001D0452 /* FeedTableViewController.swift in Sources */,
 			);
